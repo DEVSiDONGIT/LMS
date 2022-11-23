@@ -1,0 +1,26 @@
+server:
+  port: 4015
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/LearningManagmentSystem?createDatabaseIfNotExist=true
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+logging:  
+     file:
+       name :  D:/SIDdhesh/Project/02-11-2022-RESUME-BUILDER/ResumeBuilderFile.log 
+      
+     level:
+        org:
+         springframawork: info
+         hibernate: error
+
+jwt:
+  secret: siddhesh
