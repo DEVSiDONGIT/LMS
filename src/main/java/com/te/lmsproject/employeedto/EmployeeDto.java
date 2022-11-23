@@ -21,7 +21,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class EmployeeDto {
+public class EmployeeDto { 
 
 //	@NotNull(message = "Employee Id Is Mandatory")
 //	@Size(max = 10)
